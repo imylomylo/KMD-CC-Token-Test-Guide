@@ -9,9 +9,17 @@ Output:
 ```JSON
 {
   "result": "success",
-  "FaucetCCaddress": "RSxACZQhskPjQyxp7TUPG1oP1wm4agFycJ",
+  "FaucetCCaddress": "R9zHrofhRbub7ER77B7NrVch3A63R39GuC",
+  "Faucetmarker": "RKQV4oYs4rvxAWx1J43VnT73rSTVtUeckk",
   "CCaddress": "RSxACZQhskPjQyxp7TUPG1oP1wm4agFycJ",
-  "myCCaddress": "RSxACZQhskPjQyxp7TUPG1oP1wm4agFycJ",
-  "myaddress": "RANyPgfZZLhSjQB9jrzztSw66zMMYDZuxQ"
+  "myCCaddress": "RJf8Hm6gcExTDvYkXi9Mvu9LjDuKkeewdq",
+  "myaddress": "RGxBQho3stt6EiApWTzFZxDvqqsM8GwAuk"
 }
 ```
+
+**Help:**
+```shell
+komodo-cli -ac_name=ATEST help faucetaddress
+faucetaddress [pubkey]
+```
+ - [ ] help faucet address todo
