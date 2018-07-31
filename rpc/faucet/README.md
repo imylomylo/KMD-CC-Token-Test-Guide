@@ -9,13 +9,28 @@ This is a Faucet smartcontract. Enabled anyone to setup and operate a faucet. Th
 
 ## Workflow
 
-komodo-cli -ac_name=ATEST faucetfund <amount>
-komodo-cli -ac_name=ATEST faucetaddress <pubkey>
-komodo-cli -ac_name=ATEST faucetget
-komodo-cli -ac_name=ATEST decoderawtransaction <hex>
-komodo-cli -ac_name=ATEST sendrawtransaction <hex>
+ - `komodo-cli -ac_name=ATEST faucetfund <amount>` (then decoderawtransaction, sendrawtransaction)
+ - `komodo-cli -ac_name=ATEST faucetaddress <pubkey>`
+ - `komodo-cli -ac_name=ATEST faucetget` (then decoderawtransaction, sendrawtransaction)
 
 ### Example
+
+**faucetfund amount**
+```shell
+komodo-cli -ac_name=ATEST faucetfund 20
+{
+  "result": "success",
+  "hex": "0100000002dfda72e45e0f85bb09378a25d5bed6f580f0137d169d5bcc9d3d010f2f2594810100000048473044022070e56e3f786e21cd3fcc2bf49e4db75cb742e3c64e5b6c87e6b9c074c05ebcd202202504ec96a606c34ac87f29593fe7c6e1f91fb0aee6fbf6d109c419e0a742e9a601ffffffffff18780b5081ce5f002e8f81090c6f2c2e639b365aef61b676f37d08fec23e8f010000006b483045022100bf4b04457e067357ffa9e02c749809ffe8fbdd979bf75985f43f6bbebb1f01d802204176cb0e0f30bb7f7c45d0663c8b0951482e6bd9611b1116964d38bdd2a2bfe6012103496adfde29629bf221ce383f141841d4de763132bfa38d05882f6f4122ba32e3ffffffff020094357700000000302ea22c8020e029c511da55523565835887e412e5a0c9b920801b007000df45e545f25028248103120c008203000401ccf0c532dd170900002321033ace50aedf8df70035b962a805431363a61cc4e69d99d90726a2d48fb195f68cac00000000"
+}
+```
+**decoderawtransaction hex**
+```shell
+removed
+```
+**sendrawtransaction hex**
+```shell
+removed
+```
 
 **faucetaddress pubkey**
  ```shell
