@@ -5,7 +5,9 @@ This is a Faucet smartcontract. Enabled anyone to setup and operate a faucet. Th
 == Faucet ==  
 [faucetaddress [pubkey]](./faucetaddress.md) - will show you the faucet smart contract address  
 [faucetfund amount](./faucetfund.md) - donate/send your funds to the faucet  
-[faucetget](./faucetget) - request faucet funds  
+[faucetget](./faucetget.md) - request faucet funds  
+[faucetinfo](./faucetinfo.md) - displays faucet funds balance
+
 
 ## Workflow
 
@@ -124,4 +126,3 @@ faucetget validated
  - jl777cToday at 10:09 PM
  - each chain has only one faucet CC
  - presumably the community/project would fund it
-
